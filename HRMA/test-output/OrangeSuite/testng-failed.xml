@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeSuite]" parallel="none">
+  <parameter name="browser" value="firefox"/>
+  <test name="TestFirefox(failed)" parallel="none">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.hrm.scripts.VerifyLoginLogout">
+        <methods>
+          <include name="initReport"/>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+          <include name="closeApplication"/>
+          <include name="disableAutoLoginLogout"/>
+          <include name="testLoginLogout"/>
+          <include name="publishReport"/>
+          <include name="preCondition"/>
+          <include name="initGlobalVar"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.VerifyLoginLogout -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
+</suite> <!-- Failed suite [OrangeSuite] -->
