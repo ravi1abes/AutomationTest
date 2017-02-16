@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="com.hrm.scripts.DeleteEmployee"/>
+      <class name="com.hrm.scripts.CreateEmployee"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

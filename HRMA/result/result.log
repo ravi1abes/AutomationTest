@@ -286,3 +286,10 @@ com.hrm.scripts.DeleteEmployee 2017-02-16 23:37:26,910 com.hrm.base.BaseTest.ini
 com.hrm.scripts.DeleteEmployee 2017-02-16 23:37:26,934 com.hrm.base.BaseTest.initApplication(BaseTest.java:85) Opening Browser:chrome 
 com.hrm.scripts.DeleteEmployee 2017-02-16 23:37:33,229 com.hrm.base.BaseTest.preCondition(BaseTest.java:110) Auto login 
 com.hrm.scripts.DeleteEmployee 2017-02-16 23:37:49,802 com.hrm.base.BaseTest.postCondition(BaseTest.java:123) Auto logout 
+com.hrm.scripts.CreateEmployee 2017-02-17 00:22:17,342 com.hrm.base.BaseTest.initReport(BaseTest.java:59) initializing ExtentReport 
+com.hrm.scripts.CreateEmployee 2017-02-17 00:22:17,976 com.hrm.base.BaseTest.initGlobalVar(BaseTest.java:74) initialize Global variables 
+com.hrm.scripts.CreateEmployee 2017-02-17 00:22:17,992 com.hrm.base.BaseTest.initApplication(BaseTest.java:85) Opening Browser:chrome 
+com.hrm.scripts.CreateEmployee 2017-02-17 00:22:24,566 com.hrm.base.BaseTest.preCondition(BaseTest.java:110) Auto login 
+com.hrm.scripts.CreateEmployee 2017-02-17 00:22:42,593 com.hrm.base.BaseTest.postCondition(BaseTest.java:123) Auto logout 
+com.hrm.scripts.CreateEmployee 2017-02-17 00:22:43,741 com.hrm.base.BaseTest.closeApplication(BaseTest.java:101) Closing Browser 
+com.hrm.scripts.CreateEmployee 2017-02-17 00:22:45,218 com.hrm.base.BaseTest.publishReport(BaseTest.java:68) publishing ExtentReport 
