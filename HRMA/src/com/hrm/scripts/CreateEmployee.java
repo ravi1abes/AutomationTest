@@ -14,7 +14,7 @@ public class CreateEmployee extends BaseTest {
 	 public void testCreateEmployee()
 	 {
 		 int rc = Excel.getRowCount(INPUT_PATH, "CreateEmployee");
-		// System.out.println(rc);
+		 System.out.println(rc);
 		for(int i=1;i<=rc;i++)
 			
 		{
