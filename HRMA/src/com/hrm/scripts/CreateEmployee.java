@@ -14,9 +14,7 @@ public class CreateEmployee extends BaseTest {
 	 public void testCreateEmployee()
 	 {
 		 int rc = Excel.getRowCount(INPUT_PATH, "CreateEmployee");
-		 System.out.println(rc);
-		 System.out.println(rc);
-		 System.out.println(rc);
+		 //System.out.println(rc);
 		for(int i=1;i<=rc;i++)
 			
 		{
@@ -25,7 +23,8 @@ public class CreateEmployee extends BaseTest {
 			String fn = Excel.getCellValue(INPUT_PATH, "CreateEmployee", i, 1);
 			String ln = Excel.getCellValue(INPUT_PATH, "CreateEmployee", i, 2);
 			String vpdUrl = Excel.getCellValue(INPUT_PATH, "CreateEmployee", i, 3);
-			//System.out.println(fn);
+			System.out.println(fn);
+			System.out.println("Comment added");
 		 
 		 //click on PIM
 		 DashboardPage dbPage=new DashboardPage(driver);
